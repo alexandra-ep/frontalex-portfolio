@@ -1,7 +1,11 @@
+import { useState } from "react";
 import emailjs from "emailjs-com";
+import Alert from "react-bootstrap/Alert";
 import Form from "react-bootstrap/Form";
 
 export default function ContactForm() {
+  const [submitted, setSubmitted] = useState(false);
+
   function sendEmail(e) {
     e.preventDefault();
 
@@ -15,12 +19,13 @@ export default function ContactForm() {
       .then(
         (result) => {
           console.log(result.text);
+          setSubmitted(true);
         },
         (error) => {
           console.log(error.text);
         }
       );
-      e.target.reset();
+    e.target.reset();
   }
 
   return (
@@ -28,21 +33,24 @@ export default function ContactForm() {
       <Form onSubmit={sendEmail}>
         <Form.Group>
           <Form.Label>Name</Form.Label>
-          <Form.Control type="text" name="name" />
+          <Form.Control type="text" name="name" required />
         </Form.Group>
         <Form.Group>
           <Form.Label>Email</Form.Label>
-          <Form.Control type="email" name="email" />
-        </Form.Group>
-        <Form.Group>
-          <Form.Label>Subject</Form.Label>
-          <Form.Control type="subject" name="subject" />
+          <Form.Control type="email" name="email" required />
         </Form.Group>
         <Form.Group>
           <Form.Label>How can I help you?</Form.Label>
-          <Form.Control as="textarea" rows={4} name="message" />
+          <Form.Control as="textarea" rows={4} name="message" required />
         </Form.Group>
-        <button type="submit">Send message <i className="fas fa-paper-plane icon"></i></button>
+        {submitted && (
+          <Alert className="success">
+            Your message was successfully sent. I will contact you shortly!
+          </Alert>
+        )}
+        <button type="submit">
+          Send message <i className="fas fa-paper-plane icon"></i>
+        </button>
       </Form>
     </div>
   );
