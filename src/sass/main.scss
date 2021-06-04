@@ -1,0 +1,15 @@
+// Base
+@import "partials/base/globals";
+@import "partials/base/typography";
+
+// Layout
+@import "partials/layout/layout";
+@import "partials/layout/nav";
+
+// Sections
+@import "partials/sections/hero";
+@import "partials/sections/projects";
+@import "partials/sections/skills";
+@import "partials/sections/services";
+@import "partials/sections/about";
+@import "partials/sections/contact";

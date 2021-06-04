@@ -1,0 +1,76 @@
+.services {
+  width: 80%;
+  padding-top: 7em;
+  margin: 13em auto;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+
+    h4 {
+        padding-bottom: 0.5em;
+    }
+
+    &__webdesign,
+    &__webdev {
+      flex: 1;
+      max-width: 35em;
+      padding: 2em;
+      border-radius: 4px;
+      background: white;
+      -webkit-box-shadow: 2px 5px 16px 1px $colour-ui-shadow-soft;
+      box-shadow: 2px 5px 16px 1px $colour-ui-shadow-soft;
+
+      .icon {
+        color: $colour-green-light;
+        padding-right: 1em;
+      }
+
+      ul {
+        list-style: none;
+
+        .check-icon {
+          color: $colour-green-light;
+          padding-right: 0.5em;
+        }
+
+        li {
+          font-size: 1em;
+          padding: 0.5em 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-width) {
+    .services__container {
+        flex-direction: column;
+
+        &__webdesign {
+            min-width: 100%;
+            margin-bottom: 2em;
+        }
+
+        &__webdev {
+            min-width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width: $desktop-width) {
+    .services__container {
+        &__webdesign, &__webdev {
+            max-width: 46%;
+        }
+    }
+}
+
+
+@media screen and (min-width: $big-desktop-width) {
+    .services__container {
+        &__webdesign, &__webdev {
+            max-width: 48%;
+        }
+    }
+}

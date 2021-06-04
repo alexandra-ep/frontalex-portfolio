@@ -1,0 +1,14 @@
+* {
+    font-family: $font-primary;
+    color: $colour-text;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 300;
+}
+
+.text-muted {
+    padding-bottom: 1em;
+}

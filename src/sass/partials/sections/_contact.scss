@@ -1,0 +1,94 @@
+.contact {
+  width: 100%;
+  background-image: url("../../../images/large_leather.png");
+  background-repeat: repeat;
+
+  &__container {
+    padding: 4em 0;
+    margin: 0 auto 0 auto;
+
+    &__content {
+      display: flex;
+
+      &__SoMe {
+        flex: 1;
+        max-width: 30em;
+
+        ul {
+          list-style: none;
+
+          li {
+            display: flex;
+            margin-bottom: 1.5em;
+            align-items: center;
+
+            a {
+              font-weight: 400;
+              color: $colour-text;
+
+              &:hover {
+                color: $colour-green-dark;
+                text-decoration: none;
+              }
+            }
+          }
+
+          .icon {
+            font-size: 2em;
+            color: $colour-green-dark;
+            margin-right: 15px;
+          }
+        }
+      }
+
+      &__form {
+        flex: 2;
+        max-width: 30em;
+      }
+    }
+  }
+
+  &__copy {
+    background: $colour-green-light;
+
+    p {
+      text-align: center;
+      padding: 1em;
+      margin: 0;
+      color: $colour-text;
+      font-weight: 400;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile-width) {
+    .contact__container {
+        max-width: 70%;
+
+        &__content {
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (min-width: $mobile-width) and (max-width: $desktop-width) {
+    .contact__container {
+        max-width: 45%;
+
+        &__content {
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (min-width: $desktop-width) and (max-width: $big-desktop-width) {
+    .contact__container {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: $big-desktop-width) {
+  .contact__container {
+    max-width: 60%;
+  }
+}

@@ -1,0 +1,113 @@
+.navbar {
+  background-image: url("../../../images/large_leather.png");
+  background-repeat: repeat;
+  height: 5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1em;
+
+  &__brand__logo {
+    color: $colour-text;
+    width: 4.8em;
+    justify-self: start;
+    margin-left: 1em;
+    cursor: pointer;
+  }
+
+  &__icon {
+    display: none;
+    color: $colour-text;
+  }
+
+  &__menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 1em;
+    list-style: none;
+    width: 75vw;
+    justify-content: end;
+    margin: 0 1em 0 0;
+
+    &__links {
+      text-transform: lowercase;
+      color: $colour-text;
+      padding: 0.5rem 1rem;
+
+      &:hover {
+        color: $colour-text;
+        text-decoration: none;
+        border-bottom: 2px solid $colour-green-light;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $small-tablet-width) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    &__brand__logo {
+      width: 4em;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(40%, 35%);
+    }
+
+    &__icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-180%, 65%);
+      font-size: 1.8rem;
+      cursor: pointer;
+
+      .nav-icon {
+        color: $colour-green-dark;
+      }
+    }
+
+    &__menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 5em;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+
+      &.active {
+        background: $colour-primary;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+      }
+
+      &__links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+
+        &:hover {
+          background: $colour-primary;
+          border-radius: 0;
+        }
+      }
+    }
+  }
+}

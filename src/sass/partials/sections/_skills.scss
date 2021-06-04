@@ -1,0 +1,74 @@
+.skills {
+  width: 80%;
+  padding-top: 7em;
+  margin: 13em auto; 
+  
+  &__container {
+    display: flex;
+
+    &__frontend,
+    &__design,
+    &__practical {
+      flex: 1;
+
+      &__heading {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+
+        .icon {
+          padding-right: 1em;
+          color: $colour-green-light;
+          font-size: 1.5em;
+        }
+
+        .arrow-down {
+          color: $colour-text;
+          font-size: 1.9em;
+        }
+      }
+
+      .card {
+        background: none;
+        border: none;
+
+        &-header {
+          background: none;
+          border: none;
+        }
+      }
+
+      ul {
+        list-style: none;
+        background: white;
+        padding: 2em;
+        height: 300px;
+        border-radius: 4px;
+        -webkit-box-shadow: 2px 5px 16px 1px $colour-ui-shadow-soft;
+        box-shadow: 2px 5px 16px 1px $colour-ui-shadow-soft;
+
+        li {
+          font-size: 1.1em;
+          padding-bottom: 0.5em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-width) {
+  .skills__container {
+    flex-direction: column;
+
+    ul {
+      height: 260px;
+    }
+  }
+}
+
+@media screen and (min-width: $desktop-width) {
+  .skills__container {
+    height: 300px;
+  }
+}
