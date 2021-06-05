@@ -54,7 +54,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 101;
 
     &__brand__logo {
       width: 4em;
@@ -94,7 +94,7 @@
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
-        z-index: 1;
+        z-index: 101;
       }
 
       &__links {

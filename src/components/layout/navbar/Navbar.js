@@ -20,7 +20,13 @@ export default class Navbar extends Component {
           />
         </a>
         <div className="navbar__icon" onClick={this.handleClick}>
-          <i className={this.state.active ? "fas fa-times nav-icon" : "fas fa-bars nav-icon"}></i>
+          <i
+            className={
+              this.state.active
+                ? "fas fa-times nav-icon"
+                : "fas fa-bars nav-icon"
+            }
+          ></i>
         </div>
         <ul
           className={this.state.active ? "navbar__menu active" : "navbar__menu"}
@@ -28,7 +34,11 @@ export default class Navbar extends Component {
           {NavItems.map((item, index) => {
             return (
               <li key={index}>
-                <a className={item.cName} href={item.url}>
+                <a
+                  className={item.cName}
+                  href={item.url}
+                  onClick={this.handleClick}
+                >
                   {item.title}
                 </a>
               </li>

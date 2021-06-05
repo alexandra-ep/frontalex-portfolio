@@ -1,14 +1,16 @@
 .contact {
+  border-top: 1px solid $colour-green-light;
   width: 100%;
   background-image: url("../../../images/large_leather.png");
   background-repeat: repeat;
 
   &__container {
-    padding: 4em 0;
+    padding: 4em 0 6em 0;
     margin: 0 auto 0 auto;
 
     &__content {
       display: flex;
+      justify-content: space-between;
 
       &__SoMe {
         flex: 1;
@@ -44,6 +46,45 @@
       &__form {
         flex: 2;
         max-width: 30em;
+
+        .form-group {
+          padding-bottom: 1.2em;
+
+          .form-label {
+            font-weight: 400;
+            text-transform: uppercase;
+          }
+
+          .form-control {
+            border: none;
+            -webkit-box-shadow: 2px 5px 8px 2px $colour-ui-shadow-soft;
+            box-shadow: 2px 5px 8px 2px $colour-ui-shadow-soft;
+          }
+        }
+
+        button {
+          width: 100%;
+          text-transform: uppercase;
+          border: 2px solid $colour-green-light;
+          border-radius: 4px;
+          padding: 0.6em;
+          background: $colour-primary;
+          color: $colour-text;
+          font-weight: 400;
+          -webkit-box-shadow: 2px 5px 8px 2px $colour-ui-shadow-soft;
+          box-shadow: 2px 5px 8px 2px $colour-ui-shadow-soft;
+
+          &:hover {
+            border: 2px solid $colour-green-light;
+            background: $colour-green-light;
+            color: $colour-text;
+            transition: all 0.4s ease-in-out;
+          }
+
+          .icon {
+            color: $colour-text;
+          }
+        }
       }
     }
   }
@@ -62,29 +103,37 @@
 }
 
 @media screen and (max-width: $mobile-width) {
-    .contact__container {
-        max-width: 70%;
+  .contact__container {
+    max-width: 70%;
 
-        &__content {
-            flex-direction: column;
-        }
+    &__content {
+      flex-direction: column;
+
+      &__form {
+        margin-top: 3em;
+      }
     }
+  }
 }
 
 @media screen and (min-width: $mobile-width) and (max-width: $desktop-width) {
-    .contact__container {
-        max-width: 45%;
+  .contact__container {
+    max-width: 50%;
 
-        &__content {
-            flex-direction: column;
-        }
+    &__content {
+      flex-direction: column;
+
+      &__form {
+        margin-top: 3em;
+      }
     }
+  }
 }
 
 @media screen and (min-width: $desktop-width) and (max-width: $big-desktop-width) {
-    .contact__container {
-        max-width: 80%;
-    }
+  .contact__container {
+    max-width: 80%;
+  }
 }
 
 @media screen and (min-width: $big-desktop-width) {

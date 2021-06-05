@@ -16,5 +16,5 @@ export default function Skills() {
         </div>
       </Slide>
     </div>
-  ); 
+  );
 }

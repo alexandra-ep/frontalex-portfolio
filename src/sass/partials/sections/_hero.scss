@@ -41,7 +41,7 @@
   border-top: none;
   border-right: 2px $colour-text solid;
   border-bottom: 2px $colour-text solid;
-  animation: arrow 2.3s infinite;
+  animation: arrow 3s infinite;
 }
 
 @keyframes arrow {
@@ -49,9 +49,13 @@
     opacity: 1;
     bottom: 2em;
   }
-  100% {
-    opacity: 0;
+  50% {
+    opacity: 1;
     bottom: 0em;
+  }
+  100% {
+    opacity: 1;
+    bottom: 2em;
   }
 }
 /*_____________________*/

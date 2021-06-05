@@ -1,7 +1,7 @@
 .projects {
   width: 80%;
   padding-top: 7em;
-  margin: 13em auto;
+  margin: 6em auto 10em auto;
 
   &__list {
     margin: 0 auto;
@@ -97,18 +97,18 @@
 
 @media screen and (max-width: $tablet-width) {
   .projects__list__item {
-    height: 28vh;
+    height: 18em;
   }
 }
 
 @media screen and (min-width: $desktop-width) and (max-width: $big-desktop-width) {
   .projects__list__item {
-    height: 32vh;
+    height: 18em;
   }
 }
 
 @media screen and (min-width: $big-desktop-width) {
   .projects__list__item {
-    height: 30vh;
+    height: 20em;
   }
 }

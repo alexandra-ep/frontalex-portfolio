@@ -13,7 +13,7 @@ export default function About() {
           <Text />
           <Image />
         </div>
-        <div className="about__insta"> 
+        <div className="about__insta">
           <h3>Instagram</h3>
           <p className="text-muted">A part of my life</p>
           <Insta />

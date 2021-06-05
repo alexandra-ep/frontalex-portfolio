@@ -11,7 +11,8 @@ export default function WebDev() {
             development you need
           </li>
           <li>
-            <i className="far fa-check-circle check-icon"></i>Modern and clean web solutions
+            <i className="far fa-check-circle check-icon"></i>Modern and clean
+            web solutions
           </li>
           <li>
             <i className="far fa-check-circle check-icon"></i>Layouts that work

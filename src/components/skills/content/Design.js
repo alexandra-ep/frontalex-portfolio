@@ -9,7 +9,9 @@ export default function Frontend() {
           <Accordion.Toggle as={Card.Header} eventKey="0">
             <div className="skills__container__design__heading">
               <div className="one">
-                <h4><i className="fas fa-swatchbook icon"></i>Design</h4>
+                <h4>
+                  <i className="fas fa-swatchbook icon"></i>Design
+                </h4>
               </div>
               <div className="two">
                 <i className="fas fa-chevron-down arrow-down"></i>

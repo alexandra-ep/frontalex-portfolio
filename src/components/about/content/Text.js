@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Text() {
   return (
     <div className="about__container__text">
@@ -24,8 +22,8 @@ export default function Text() {
       <p>
         I recently completed my{" "}
         <span className="text-highlight">frontend-development</span> studies at
-        Noroff, and I am looking for a place where I can use my skills both as a
-        designer and developer.{" "}
+        Noroff School of Technology and Digital Media, and I am looking for a
+        place where I can use my skills both as a designer and developer.{" "}
       </p>
     </div>
   );

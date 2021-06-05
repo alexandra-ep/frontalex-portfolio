@@ -1,5 +1,4 @@
 import Navbar from "./navbar/Navbar";
-import Footer from "./Footer";
 
 import HeroBanner from "./HeroBanner";
 import Projects from "../projects/Projects";
@@ -10,7 +9,7 @@ import Contact from "../contact/Contact";
 
 export default function Layout() {
   return (
-    <div className="wrapper">
+    <div>
       <Navbar />
       <HeroBanner />
       <Projects />
@@ -18,7 +17,6 @@ export default function Layout() {
       <Services />
       <About />
       <Contact />
-      <Footer />
     </div>
   );
 }
