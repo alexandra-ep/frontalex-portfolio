@@ -72,6 +72,10 @@
 
     &__img {
       margin-top: 2em;
+
+      &--src {
+        width: 16em;
+      }
     }
   }
 }
@@ -84,6 +88,10 @@
 
     &__img {
       margin-right: 6em;
+
+      &--src {
+        width: 19em;
+      }
     }
   }
 }

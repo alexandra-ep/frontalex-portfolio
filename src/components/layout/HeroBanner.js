@@ -22,6 +22,7 @@ export default function HeroBanner() {
         </div>
       </div>
       <a href="#projects">
+        <p className="sr-only">Click arrow to scroll down</p>
         <div className="arrow"></div>
       </a>
     </div>

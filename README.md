@@ -1,10 +1,10 @@
 # FrontAlex Portfolio
 
-Files for my portfolio page.\
-[http://www.frontalex.com].\
+Files for my portfolio page\
+[http://www.frontalex.com]
 
-Created with React JS and Sass.\
-Deployed with Vercel.\
+Created with React JS and Sass\
+Deployed with Vercel
 
 # Getting Started with Create React App
 

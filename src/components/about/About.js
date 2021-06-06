@@ -8,7 +8,7 @@ export default function About() {
     <div id="about" className="about">
       <Slide right>
         <h3>About</h3>
-        <p className="text-muted">Get to know me</p>
+        <p className="muted-text">Get to know me</p>
         <div className="about__container">
           <Text />
           <Image />

@@ -7,7 +7,7 @@ export default function Services() {
     <div id="services" className="services">
       <Slide left>
         <h3>Services</h3>
-        <p className="text-muted">What I can offer</p>
+        <p className="muted-text">What I can offer</p>
         <div className="services__container">
           <WebDesign />
           <WebDev />

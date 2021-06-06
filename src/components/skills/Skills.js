@@ -8,7 +8,7 @@ export default function Skills() {
     <div id="skills" className="skills">
       <Slide right>
         <h3>Skills</h3>
-        <p className="text-muted">My skills under different categories</p>
+        <p className="muted-text">My skills under different categories</p>
         <div className="skills__container">
           <Frontend />
           <Design />

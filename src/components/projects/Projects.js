@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <div id="projects" className="projects">
       <h3>Projects</h3>
-      <p className="text-muted">My recent work</p>
+      <p className="muted-text">My recent work</p>
       <Row xs={1} md={2} lg={2} xl={3} className="projects__list">
         {ProjectItems.map((item, index) => {
           return (
