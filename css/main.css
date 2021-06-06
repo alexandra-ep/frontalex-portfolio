@@ -16,12 +16,12 @@
 main h1 {
   font-family: TenorSans;
   text-transform: uppercase;
-  color: #726562;
+  color: #4e423f;
 }
 
 main h2 {
   font-family: Quicksand;
-  color: #726562;
+  color: #4e423f;
   font-weight: 600;
 }
 
@@ -31,7 +31,7 @@ main .breadcrumb a,
 main .no-results,
 main .empty-cart {
   font-family: Quicksand;
-  color: #726562;
+  color: #4e423f;
 }
 
 main .no-results,
@@ -290,7 +290,7 @@ body {
 
 footer {
   background: #f5e3da;
-  color: #726562;
+  color: #4e423f;
 }
 
 footer .footer-top {
@@ -309,13 +309,13 @@ footer h5 {
 }
 
 footer a {
-  color: #726562;
+  color: #4e423f;
 }
 
 footer a:hover {
   font-weight: 600;
   text-decoration: none;
-  color: #726562;
+  color: #4e423f;
 }
 
 footer .btn, footer h6 {
@@ -335,7 +335,7 @@ footer .btn {
 
 footer .btn:hover {
   background: #de9874;
-  color: #726562;
+  color: #4e423f;
 }
 
 footer input {
@@ -367,7 +367,7 @@ footer .footer-bottom .social-media-icons i {
 }
 
 footer .footer-bottom .social-media-icons i:hover {
-  color: #726562;
+  color: #4e423f;
 }
 
 /* Media Queries */
@@ -431,7 +431,7 @@ footer .footer-bottom .social-media-icons i:hover {
   border: none;
   text-align: center;
   background: none;
-  color: #726562;
+  color: #4e423f;
   font-family: Quicksand;
   margin: 0 auto;
 }
@@ -651,7 +651,7 @@ footer .footer-bottom .social-media-icons i:hover {
   }
 }
 
-/*________________*/
+/*_______________________*/
 .products-container .title-head {
   margin-top: 2.5em;
 }
@@ -675,7 +675,7 @@ footer .footer-bottom .social-media-icons i:hover {
   border: none;
   text-align: center;
   background: none;
-  color: #726562;
+  color: #4e423f;
   font-family: Quicksand;
   margin: 0 auto;
 }
@@ -782,7 +782,7 @@ footer .footer-bottom .social-media-icons i:hover {
   border: none;
   text-align: center;
   background: none;
-  color: #726562;
+  color: #4e423f;
   font-family: Quicksand;
   margin: 0 auto;
 }
@@ -836,11 +836,11 @@ footer .footer-bottom .social-media-icons i:hover {
 
 .add:hover {
   background: #de9874;
-  color: #726562;
+  color: #4e423f;
 }
 
 .added {
-  background: #726562;
+  background: #4e423f;
   color: #f5e3da;
 }
 
@@ -1015,7 +1015,7 @@ footer .footer-bottom .social-media-icons i:hover {
 }
 
 .cart-container .cart-details .btn-continue {
-  background: #726562;
+  background: #4e423f;
   color: #f5e3da;
   margin-bottom: 1em;
 }
@@ -1113,13 +1113,13 @@ footer .footer-bottom .social-media-icons i:hover {
 .login-container .signin-btn,
 .admin-login-container .signin-btn {
   color: #f5e3da;
-  background: #726562;
+  background: #4e423f;
 }
 
 .login-container .signin-btn:hover,
 .admin-login-container .signin-btn:hover {
   background: #de9874;
-  color: #726562;
+  color: #4e423f;
 }
 
 /*_______________________*/
@@ -1137,7 +1137,7 @@ footer .footer-bottom .social-media-icons i:hover {
 }
 
 .login-container .row .signup-btn {
-  color: #726562;
+  color: #4e423f;
   background: #f5c0a5;
   font-family: Quicksand;
   display: block;
@@ -1271,6 +1271,7 @@ footer .footer-bottom .social-media-icons i:hover {
   text-transform: uppercase;
 }
 
+/*_______________________*/
 .products-admin {
   margin: 3em 0;
 }
@@ -1283,7 +1284,7 @@ footer .footer-bottom .social-media-icons i:hover {
   border: none;
   text-align: center;
   background: none;
-  color: #726562;
+  color: #4e423f;
   font-family: Quicksand;
   margin: 0 auto;
 }
@@ -1340,7 +1341,7 @@ footer .footer-bottom .social-media-icons i:hover {
 .edit-container input,
 .edit-container textarea {
   font-family: Quicksand;
-  color: #726562;
+  color: #4e423f;
 }
 
 .add-container button,
@@ -1371,7 +1372,7 @@ footer .footer-bottom .social-media-icons i:hover {
 .add-container .add-btn,
 .edit-container .edit-btn,
 .edit-container .add-btn {
-  background: #726562;
+  background: #4e423f;
   color: #f5e3da;
 }
 
@@ -1380,7 +1381,7 @@ footer .footer-bottom .social-media-icons i:hover {
 .edit-container .edit-btn:hover,
 .edit-container .add-btn:hover {
   background: #de9874;
-  color: #726562;
+  color: #4e423f;
 }
 
 .add-container .delete-btn,
@@ -1392,7 +1393,7 @@ footer .footer-bottom .social-media-icons i:hover {
 .add-container .delete-btn:hover,
 .edit-container .delete-btn:hover {
   background: #de9874;
-  color: #726562;
+  color: #4e423f;
 }
 
 .add-container #image,
@@ -1451,6 +1452,7 @@ footer .footer-bottom .social-media-icons i:hover {
   display: none;
 }
 
+/*_______________________*/
 /* Media Queries */
 @media only screen and (max-width: 500px) {
   .products-admin .lds-circle {
