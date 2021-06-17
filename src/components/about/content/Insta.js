@@ -5,7 +5,7 @@ export const Insta = () => {
   return (
     <InstagramFeed
       token={
-        "IGQVJWbVBIMGZABVTJvd3FHSDVKZAV9peHhhdFJXRFlNNDZALQ2NZAQ1laeXdOMEExc2pNMTJtNlhudzV6azdkLVpfTlRnOWZAvZAG9OaS11V3l0eVdEcDVCQTROOVI3V3dzZADhPUXAyLW01LVUwZAENDZAVprZAQZDZD"
+        "IGQVJVUHZATcksydHdrWS1nN2JFVGlHWTAySmRzYmp2VHdhR2U3OTZAJNkRYalI5LTQxdnhaMkJXM3Jpb0tCQjdrOTAxZA1JiTXZATQlNMVHhnd0NPTlpkVmFRZATlFQjlmajl5ZAXl3ZA2puWkNNNkNIQnpMRAZDZD"
       }
       counter="6"
     />
