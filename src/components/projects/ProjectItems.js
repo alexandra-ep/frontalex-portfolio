@@ -7,7 +7,7 @@ export const ProjectItems = [
   {
     title: "SpaceX",
     type: "School Project",
-    url: "http://frontalex.com/noroff/semester-2/project-exam/SpaceX/",
+    url: "https://spacex-projectexam.vercel.app/",
     image: spacex,
     tags: ["Design ▪️ ", "HTML ▪️ ", "CSS ▪️ ", "JavaScript ▪️ ", "API"],
     cName: "projects__list__item",
@@ -15,7 +15,7 @@ export const ProjectItems = [
   {
     title: "PERSICA",
     type: "School Project",
-    url: "http://frontalex.com/noroff/semester-3/semester-project-2/PERSICA/",
+    url: "https://persica-skincare.vercel.app/",
     image: persica,
     tags: [
       "Design ▪️ ",
