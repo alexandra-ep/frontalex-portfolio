@@ -2,6 +2,7 @@ import spacex from "../../images/spacex.jpg";
 import persica from "../../images/persica.png";
 import jsframeworks from "../../images/js_frameworks.png";
 import holidaze from "../../images/holidaze.jpg";
+import reactprojects from "../../images/15reactprojects.png";
 
 export const ProjectItems = [
   {
@@ -43,6 +44,14 @@ export const ProjectItems = [
     url: "https://holidaze-norway.vercel.app/",
     image: holidaze,
     tags: ["React JS ▪️ ", "Sass ▪️ ", "Bootstrap ▪️ ", "BEM ▪️ ", "Strapi"],
+    cName: "projects__list__item",
+  },
+  {
+    title: "15 React Projects",
+    type: "Private Project",
+    url: "https://15-react-projects.vercel.app/",
+    image: reactprojects,
+    tags: ["React JS ▪️ ", "Sass ▪️ ", "BEM ▪️ ", "Design ▪️ ", "API"],
     cName: "projects__list__item",
   },
 ];
