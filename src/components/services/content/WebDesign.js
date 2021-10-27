@@ -13,7 +13,7 @@ export default function WebDesign() {
         </li>
         <li>
           <i className="far fa-check-circle check-icon"></i>Intuitive UX/UI and
-          seamless experiences for your users
+          seamless experiences
         </li>
         <li>
           <i className="far fa-check-circle check-icon"></i>A design that fits

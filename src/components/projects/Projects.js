@@ -8,7 +8,7 @@ export default function Projects() {
     <div id="projects" className="projects">
       <Slide left>
         <h3>Projects</h3>
-        <p className="muted-text">My recent work</p>
+        <p className="muted-text">Recent work</p>
         <Row xs={1} md={2} lg={2} xl={3} className="projects__list">
           {ProjectItems.map((item, index) => {
             return (
