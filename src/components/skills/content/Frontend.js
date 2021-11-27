@@ -28,6 +28,7 @@ export default function Frontend() {
                 <li>Sass</li>
                 <li>Bootstrap</li>
                 <li>Strapi</li>
+                <li>PHP</li>
               </ul>
             </Card.Body>
           </Accordion.Collapse>

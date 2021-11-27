@@ -26,6 +26,7 @@ export default function Practical() {
                 <li>FileZilla</li>
                 <li>BEM</li>
                 <li>VsCode</li>
+                <li>MySQL</li>
               </ul>
             </Card.Body>
           </Accordion.Collapse>

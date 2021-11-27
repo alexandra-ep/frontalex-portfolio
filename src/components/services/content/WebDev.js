@@ -7,8 +7,7 @@ export default function WebDev() {
         </h4>
         <ul>
           <li>
-            <i className="far fa-check-circle check-icon"></i>All the web
-            development you need
+            <i className="far fa-check-circle check-icon"></i>Web Developing & Design
           </li>
           <li>
             <i className="far fa-check-circle check-icon"></i>Modern and clean

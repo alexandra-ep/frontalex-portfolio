@@ -22,7 +22,7 @@ export default function Projects() {
                   <h4>{item.title}</h4>
                   <h5>{item.type}</h5>
                   <span>{item.tags}</span>
-                  <a href={item.url}>Visit website</a>
+                  <a href={item.url}>{item.btnText}</a>
                 </div>
               </Col>
             );

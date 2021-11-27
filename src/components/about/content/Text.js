@@ -21,8 +21,8 @@ export default function Text() {
       </p>
       <p>
         I recently completed my{" "}
-        <span className="text-highlight">frontend-development</span> studies at
-        Noroff School of Technology and Digital Media, and I am looking for a
+        <span className="text-highlight">frontend development</span> studies at
+        Noroff School of Technology & Digital Media, and I am looking for a
         place where I can use my skills both as a designer and developer.{" "}
       </p>
     </div>

@@ -9,7 +9,7 @@ export default function WebDesign() {
       <ul>
         <li>
           <i className="far fa-check-circle check-icon"></i>UX/UI design with
-          tools such as XD
+          tools such as Adobe XD
         </li>
         <li>
           <i className="far fa-check-circle check-icon"></i>Intuitive UX/UI and
