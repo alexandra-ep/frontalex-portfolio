@@ -1,8 +1,11 @@
-import spacex from "../../images/spacex.jpg";
-import persica from "../../images/persica.png";
-import holidaze from "../../images/holidaze.jpg";
-import reactprojects from "../../images/15reactprojects.png";
-import wowfood from "../../images/wowFood.png";
+import {
+  spacex,
+  persica,
+  holidaze,
+  reactprojects,
+  wowfood,
+  gpt3,
+} from "./imports";
 
 export const ProjectItems = [
   {
@@ -38,7 +41,14 @@ export const ProjectItems = [
     url: "https://holidaze-norway.vercel.app/",
     btnText: "Visit Website",
     image: holidaze,
-    tags: ["Design ▪️ ", "React JS ▪️ ", "Sass ▪️ ", "Bootstrap ▪️ ", "BEM ▪️ ", "Strapi"],
+    tags: [
+      "Design ▪️ ",
+      "React JS ▪️ ",
+      "Sass ▪️ ",
+      "Bootstrap ▪️ ",
+      "BEM ▪️ ",
+      "Strapi",
+    ],
     cName: "projects__list__item",
   },
   {
@@ -57,6 +67,15 @@ export const ProjectItems = [
     btnText: "Visit GitHub",
     image: wowfood,
     tags: ["PHP ▪️ ", "CSS ▪️ ", "MySQL ▪️ ", "Frontend ▪️ ", "Backend"],
+    cName: "projects__list__item",
+  },
+  {
+    title: "GPT3",
+    type: "Private Project",
+    url: "https://modern-gpt3.vercel.app/",
+    btnText: "Visit Website",
+    image: gpt3,
+    tags: ["React JS ▪️ ", "CSS ▪️ ", "JSX ▪️ ", "BEM ▪️ ", "Design"],
     cName: "projects__list__item",
   },
 ];
