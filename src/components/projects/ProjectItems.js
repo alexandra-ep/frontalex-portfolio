@@ -4,7 +4,7 @@ import {
   holidaze,
   reactprojects,
   wowfood,
-  gpt3,
+  moderngpt,
 } from "./imports";
 
 export const ProjectItems = [
@@ -70,11 +70,11 @@ export const ProjectItems = [
     cName: "projects__list__item",
   },
   {
-    title: "GPT3",
+    title: "GPT-3",
     type: "Private Project",
     url: "https://modern-gpt3.vercel.app/",
     btnText: "Visit Website",
-    image: gpt3,
+    image: moderngpt,
     tags: ["React JS ▪️ ", "CSS ▪️ ", "JSX ▪️ ", "BEM ▪️ ", "Design"],
     cName: "projects__list__item",
   },
