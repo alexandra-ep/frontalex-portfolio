@@ -5,6 +5,7 @@ import {
   reactprojects,
   wowfood,
   moderngpt,
+  plantex,
 } from "./imports";
 
 export const ProjectItems = [
@@ -76,6 +77,15 @@ export const ProjectItems = [
     btnText: "Visit Website",
     image: moderngpt,
     tags: ["React JS ▪️ ", "CSS ▪️ ", "JSX ▪️ ", "BEM ▪️ ", "Design"],
+    cName: "projects__list__item",
+  },
+  {
+    title: "PLANTEX",
+    type: "Private Project",
+    url: "https://plantex.vercel.app/",
+    btnText: "Visit Website",
+    image: plantex,
+    tags: ["HTML ▪️ ", "CSS ▪️ ", "JS ▪️ ", "Design ▪️ ", "Modern ▪️ ", "Responsive"],
     cName: "projects__list__item",
   },
 ];
